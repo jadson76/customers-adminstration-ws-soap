@@ -37,8 +37,8 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(name = "", propOrder = {
     "id"
 })
-@XmlRootElement(name = "GetCustomerDetailRequest")
-public class GetCustomerDetailRequest {
+@XmlRootElement(name = "DeleteCustomerRequest")
+public class DeleteCustomerRequest {
 
     protected int id;
 
